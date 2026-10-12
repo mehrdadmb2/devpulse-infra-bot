@@ -1,0 +1,14 @@
+{
+  "name": "devpulse-infra-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only Telegram command center for GitHub and Cloudflare on Workers + D1",
+  "scripts": {
+    "check": "node --check src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

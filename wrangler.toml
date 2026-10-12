@@ -1,0 +1,15 @@
+name = "mehrdad-devpulse-bot"
+main = "src/index.js"
+compatibility_date = "2026-10-12"
+workers_dev = true
+account_id = "12b17fc9b576346721c489acb2a6696f"
+
+[vars]
+GITHUB_USERNAME = "mehrdadmb2"
+CLOUDFLARE_ACCOUNT_ID = "12b17fc9b576346721c489acb2a6696f"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "devpulse-infra-bot-db"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+migrations_dir = "migrations"
